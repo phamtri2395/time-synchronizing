@@ -2,6 +2,7 @@
 Synchronize time from time.gov and display data in human readable format to screen.
 
 ## Screenshots
+![screenshot](https://github.com/phamtri2395/time-synchronizing/blob/master/screenshot.png "Screenshot")
 
 ## How to run
 1. Clone this project.
