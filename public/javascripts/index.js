@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $('#getTime').click(function() {
+    $('#currentTime').text('Getting time...');
+
     var host = 'http://' + window.location.hostname + ':' + $('#port').attr('value');
     var path = '/now/';
     var utc = parseInt($('#utc').val()) || 0;
